@@ -9,11 +9,11 @@ public class ItemCollector : MonoBehaviour
     private int _bananas = 0;
     private int Bananas
     {
-        get { return _bananas; }
+        get { return _bananas; }// get synax (return + variables)
 
         set
         {
-            _bananas = value;
+            _bananas = value;// set synax (variables = value)
             Debug.Log("Bananas Collected: " + _bananas);
         }
     }

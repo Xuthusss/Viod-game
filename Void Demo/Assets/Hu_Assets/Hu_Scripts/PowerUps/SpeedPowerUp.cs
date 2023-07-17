@@ -5,8 +5,7 @@ using UnityEngine;
 public class SpeedPowerUp : PowerUp
 {
     
-    [SerializeField]
-    private float speedMultiplier;
+    [SerializeField] private float speedMultiplier;
 
     public override void TriggerPowerUp()
     {
