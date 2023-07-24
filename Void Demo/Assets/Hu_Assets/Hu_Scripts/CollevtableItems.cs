@@ -7,12 +7,16 @@ public class CollevtableItems : MonoBehaviour
 {
     private int ColleveableItems = 0;
 
+    AudioSource src;
+
     [SerializeField] private Text colleveableItemsText;
 
-    [SerializeField] private AudioSource collectionSoundEffect;
+    [SerializeField] private AudioClip collectionSoundEffect;
 
-    [SerializeField] private float multiplier = 0;
-
+    private void Start()
+    {
+        src = GetComponent<AudioSource>();
+    }
     private void OnTriggerEnter2D(Collider2D collision)// collider with player 
     {
         if (collision.gameObject.CompareTag("ColleveableItems"))
@@ -20,15 +24,10 @@ public class CollevtableItems : MonoBehaviour
             Destroy(collision.gameObject);//remove the items from the game
             ColleveableItems++;// increase text numbers
             colleveableItemsText.text = "Psyche: " + ColleveableItems;
-            collectionSoundEffect.Play();
-            Powerup();
+            src.clip = collectionSoundEffect;
+            src.Play();
 
         }
     }
 
-    private void Powerup()// power up method
-    {
-        transform.localScale *= multiplier;
-        
-    }
 }

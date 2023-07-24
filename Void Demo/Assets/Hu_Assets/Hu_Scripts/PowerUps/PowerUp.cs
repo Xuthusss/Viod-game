@@ -4,9 +4,7 @@ using UnityEngine;
 
 public class PowerUp : MonoBehaviour
 {
-    private AudioSource src;
-    [SerializeField]
-    private AudioClip soundEffect;
+   
 
     private SpriteRenderer sprite;
 
@@ -17,7 +15,6 @@ public class PowerUp : MonoBehaviour
 
     public virtual void Awake()
     {
-        src = GetComponent<AudioSource>();
         sprite = GetComponent<SpriteRenderer>();
     }
     public virtual void Start()
@@ -29,9 +26,7 @@ public class PowerUp : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player" && !hasEntered)
         {
-                src.clip = soundEffect;
-                src.PlayOneShot(soundEffect);
-
+          
                 TriggerPowerUp();
                 sprite.enabled = false;
                 Destroy(gameObject, 1.0f);

@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class BigPowerUp : PowerUp
 {
-    [SerializeField]
-    private float scaleAmount = 1.1f;
+    [SerializeField] private float scaleAmount = 2f;
    
     public override void TriggerPowerUp()
     {

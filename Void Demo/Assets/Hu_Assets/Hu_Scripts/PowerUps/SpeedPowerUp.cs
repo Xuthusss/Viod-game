@@ -6,10 +6,13 @@ public class SpeedPowerUp : PowerUp
 {
     
     [SerializeField] private float speedMultiplier;
+    private int timesActiated = 0;
 
     public override void TriggerPowerUp()
     {
-        playerScript.moveSpeed *= speedMultiplier;
+        timesActiated++;
+        playerScript.moveSpeed += 0.2f * timesActiated;
+        //playerScript.moveSpeed *= speedMultiplier;
         base.TriggerPowerUp();
     }
 }

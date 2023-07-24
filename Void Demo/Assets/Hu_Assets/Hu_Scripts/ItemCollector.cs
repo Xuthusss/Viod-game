@@ -14,7 +14,7 @@ public class ItemCollector : MonoBehaviour
         set
         {
             _bananas = value;// set synax (variables = value)
-            Debug.Log("Bananas Collected: " + _bananas);
+            Debug.Log("Speed up + Bananas Collected: " + _bananas);
         }
     }
 
