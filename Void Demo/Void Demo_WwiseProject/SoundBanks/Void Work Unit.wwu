@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AC032BA5-4464-4CB3-B1C5-89DF0B45EC00}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Void Work Unit" ID="{AC032BA5-4464-4CB3-B1C5-89DF0B45EC00}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Void" ID="{BBDFD46E-D8B4-41D0-9ADF-7C312AE51761}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_MSC_StartScreen" ID="{28DD1BFE-5DC5-4B19-B2CC-6955F56D620A}" WorkUnitID="{991D6AAB-B77F-421E-8E66-8D63E3D529D2}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

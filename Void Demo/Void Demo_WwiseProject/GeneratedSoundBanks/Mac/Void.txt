@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3034528952	Play_MSC_StartScreen			\Void Game Events\Play_MSC_StartScreen	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	590567906	Start Screen Music	Y:\Desktop\GitHub\Viod-game\Void Demo\Void Demo_WwiseProject\.cache\Mac\SFX\Start Menu Scoring_D79FB2B7.wem		\Interactive Music Hierarchy\Void Interactive Music\Music Playlist Container\MSC_StartScenes\Start Screen Music		3072096
+

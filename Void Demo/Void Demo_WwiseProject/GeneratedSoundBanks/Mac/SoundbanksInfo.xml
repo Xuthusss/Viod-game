@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../../</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{ADE84B58-5E3F-7E48-F1CE-40F335456E48}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3021012162" Name="Start Screen Mixer"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="4056684167" Name="Master"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3370470011" Type="User" Language="SFX" Hash="{8B53F979-33F4-A7CB-F30E-19F2F3D58168}">
+			<ShortName>Void</ShortName>
+			<Path>Void.bnk</Path>
+			<Media>
+				<File Id="590567906" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Start Menu Scoring.wav</ShortName>
+					<CachePath>SFX/Start Menu Scoring_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3034528952" Name="Play_MSC_StartScreen" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="590567906"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{0E3C31A2-2C76-563A-A285-2BD424D3C1D3}</FileHash>
+</SoundBanksInfo>

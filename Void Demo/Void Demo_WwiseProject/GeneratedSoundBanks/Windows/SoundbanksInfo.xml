@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../../</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{FD54A838-33DC-E1FC-3403-F7F0DB413A2D}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3021012162" Name="Start Screen Mixer"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="4056684167" Name="Master"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3370470011" Type="User" Language="SFX" Hash="{F7EA166B-8C3C-FE0C-B2B3-A816E36BFB7E}">
+			<ShortName>Void</ShortName>
+			<Path>Void.bnk</Path>
+			<Media>
+				<File Id="590567906" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Start Menu Scoring.wav</ShortName>
+					<CachePath>SFX/Start Menu Scoring_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3034528952" Name="Play_MSC_StartScreen" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="590567906"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="718371174" Name="Stop_MSC_StartScreen" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{9C3B4E1D-60ED-84D1-5822-AA567E791D91}</FileHash>
+</SoundBanksInfo>

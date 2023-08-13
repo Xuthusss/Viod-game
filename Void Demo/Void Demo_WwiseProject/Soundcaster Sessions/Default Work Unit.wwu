@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B19B09EA-217E-4CD0-897F-E0526A5C42C4}" SchemaVersion="110">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{B19B09EA-217E-4CD0-897F-E0526A5C42C4}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Void Soundcaster Session" ID="{8A875C04-2E94-4992-89E3-C820C37CABCF}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_MSC_StartScreen" ID="{28DD1BFE-5DC5-4B19-B2CC-6955F56D620A}" WorkUnitID="{991D6AAB-B77F-421E-8E66-8D63E3D529D2}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

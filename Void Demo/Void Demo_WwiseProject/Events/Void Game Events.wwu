@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{991D6AAB-B77F-421E-8E66-8D63E3D529D2}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Void Game Events" ID="{991D6AAB-B77F-421E-8E66-8D63E3D529D2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_MSC_StartScreen" ID="{28DD1BFE-5DC5-4B19-B2CC-6955F56D620A}">
+					<ChildrenList>
+						<Action Name="" ID="{7B7ED7FB-95FF-44B2-AEEC-2BAACF936388}" ShortID="398711282">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music Playlist Container" ID="{BD5967B9-F100-4240-B289-AD1302B915B1}" WorkUnitID="{B3FC04BD-6FEB-4896-8786-22E6B03F6C15}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

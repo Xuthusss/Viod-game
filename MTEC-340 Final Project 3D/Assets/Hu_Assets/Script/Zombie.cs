@@ -20,6 +20,7 @@ public class Zombie : MonoBehaviour
             audio.Play();
 
             GetComponent<CapsuleCollider>().enabled = false;
+            Destroy(gameObject, 5.0f);
         }
     }
     

@@ -2,15 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
+
 public class GameBehavior : MonoBehaviour
 {
     public static GameBehavior Instance = null;
 
 
     public int targetKills = 10; // The target number of Zombies to kill to win the game
-    private int zombiesKilled = 0; // The current number of Zombies killed
+    public int zombiesKilled = 0; // The current number of Zombies killed
 
     public int playerHealth = 3;
+
+    private int waveNumber = 0;
+    [SerializeField] TMP_Text waveNumberText;
+
 
     GameObject player;
 
@@ -20,6 +26,10 @@ public class GameBehavior : MonoBehaviour
     private GameObject WinScreen;
     [SerializeField]
     private GameObject InvincibleScreen;
+
+    // zombies killed UI text
+    [SerializeField] TMP_Text zombiesKilledText;
+
     // power up variables
     public bool isInvincible = false;
 
@@ -56,22 +66,25 @@ public class GameBehavior : MonoBehaviour
         zombiesKilled++;
 
         Debug.Log("You killed a zombie!");
+
+        zombiesKilledText.text = $"Zombies Killed: {zombiesKilled}";
+
         // Check if the player has reached the target number of kills
-        if (zombiesKilled >= targetKills)
-        {
-            // Add your win game logic here, such as showing a win game screen, stopping the game, etc.
+        //if (zombiesKilled >= targetKills)
+        //{
+        //    // Add your win game logic here, such as showing a win game screen, stopping the game, etc.
         
-            // You can use SceneManager.LoadScene() to restart the level (make sure to add "using UnityEngine.SceneManagement;" at the top of the script).
+        //    // You can use SceneManager.LoadScene() to restart the level (make sure to add "using UnityEngine.SceneManagement;" at the top of the script).
 
-            WinScreen.SetActive(true);
-            player.GetComponent<ThirdPersonController>().enabled = false;
+        //    WinScreen.SetActive(true);
+        //    player.GetComponent<ThirdPersonController>().enabled = false;
 
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-            //
-            Debug.Log("YOU WIN!!!");
+        //    Cursor.lockState = CursorLockMode.None;
+        //    Cursor.visible = true;
+        //    //
+        //    Debug.Log("YOU WIN!!!");
 
-        }
+        //}
     }
     public void PlayerHurt()
     {
@@ -98,4 +111,10 @@ public class GameBehavior : MonoBehaviour
         }
     }
 
+
+    public void NewWave()
+    {
+        waveNumber++;
+        waveNumberText.text = $"Wave: {waveNumber}";
+    }
 }

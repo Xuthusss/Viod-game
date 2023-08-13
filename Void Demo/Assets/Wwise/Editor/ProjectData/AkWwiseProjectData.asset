@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5356c743b515148cebb42f4b43ffa563, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 33deb6e84328ab49bab1bfc77bf15f62
+    ParentPath: Virtual Acoustics/Default Work Unit
+    guid: 33deb6e84328ab49bab1bfc77bf15f62
+    GuidInternal: 
+    m_lastTime: -8585097981646350040
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 946f854b59eb3b45a2d74fe505274b74
+    ParentPath: Master-Mixer Hierarchy/Default Work Unit
+    guid: 946f854b59eb3b45a2d74fe505274b74
+    GuidInternal: 
+    m_lastTime: -8585097912317636378
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 946f854b59eb3b45a2d74fe505274b74
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+  - PhysicalPath: Master-Mixer Hierarchy/Void Game.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Void Game
+      ObjectType: 12
+      guid: 1e90fc9f8f8d4a4b8f5c9c20d623de5c
+    ParentPath: Master-Mixer Hierarchy/Void Game
+    guid: 1e90fc9f8f8d4a4b8f5c9c20d623de5c
+    GuidInternal: 
+    m_lastTime: -8585097906322739496
+    List:
+    - name: Master
+      guid: d1ce806cc2d8cb4aa3f00cc72c9abee4
+      id: 4056684167
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Void Game
+        ObjectType: 12
+        guid: 1e90fc9f8f8d4a4b8f5c9c20d623de5c
+      - ElementName: Master
+        ObjectType: 2
+        guid: d1ce806cc2d8cb4aa3f00cc72c9abee4
+      Path: Master-Mixer Hierarchy/Void Game/Master
+    - name: Start Screen Mixer
+      guid: 9b1a192ac77e1245938e841959136876
+      id: 3021012162
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Void Game
+        ObjectType: 12
+        guid: 1e90fc9f8f8d4a4b8f5c9c20d623de5c
+      - ElementName: Master
+        ObjectType: 2
+        guid: d1ce806cc2d8cb4aa3f00cc72c9abee4
+      - ElementName: Start Screen Mixer
+        ObjectType: 2
+        guid: 9b1a192ac77e1245938e841959136876
+      Path: Master-Mixer Hierarchy/Void Game/Master/Start Screen Mixer
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: b63c3235c2edd44aa7d27f5191e67499
+    ParentPath: SoundBanks/Default Work Unit
+    guid: b63c3235c2edd44aa7d27f5191e67499
+    GuidInternal: 
+    m_lastTime: -8585097981646371808
+    List: []
+  - PhysicalPath: SoundBanks/Void Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Void Work Unit
+      ObjectType: 12
+      guid: a52b03ac6444b34cb1c589df0b45ec00
+    ParentPath: SoundBanks/Void Work Unit
+    guid: a52b03ac6444b34cb1c589df0b45ec00
+    GuidInternal: 
+    m_lastTime: -8585096448569797036
+    List:
+    - name: Void
+      guid: 6ed4dfbbb4d8d0419adf7c312ae51761
+      id: 3370470011
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Void Work Unit
+        ObjectType: 12
+        guid: a52b03ac6444b34cb1c589df0b45ec00
+      - ElementName: Void
+        ObjectType: 7
+        guid: 6ed4dfbbb4d8d0419adf7c312ae51761
+      Path: SoundBanks/Void Work Unit/Void
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 119b097d785b7f40bc2ed4b733522467
+    ParentPath: Events/Default Work Unit
+    guid: 119b097d785b7f40bc2ed4b733522467
+    GuidInternal: 
+    m_lastTime: -8585097869027036659
+    List: []
+  - PhysicalPath: Events/Void Game Events.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Void Game Events
+      ObjectType: 12
+      guid: ab6a1d997fb71e428e668d63e3d529d2
+    ParentPath: Events/Void Game Events
+    guid: ab6a1d997fb71e428e668d63e3d529d2
+    GuidInternal: 
+    m_lastTime: -8585096448569830010
+    List:
+    - name: Play_MSC_StartScreen
+      guid: fe1bdd28c55d194bb2cc6955f56d620a
+      id: 3034528952
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Void Game Events
+        ObjectType: 12
+        guid: ab6a1d997fb71e428e668d63e3d529d2
+      - ElementName: Play_MSC_StartScreen
+        ObjectType: 3
+        guid: fe1bdd28c55d194bb2cc6955f56d620a
+      Path: Events/Void Game Events/Play_MSC_StartScreen
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: a60509761131844ba572c2540c8dbafe
+    ParentPath: Game Parameters/Default Work Unit
+    guid: a60509761131844ba572c2540c8dbafe
+    GuidInternal: 
+    m_lastTime: -8585097981646414155
+    List: []
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 2ffcd0c1648e8e459647a1d5c62b02e2
+    ParentPath: States/Default Work Unit
+    guid: 2ffcd0c1648e8e459647a1d5c62b02e2
+    GuidInternal: 
+    m_lastTime: -8585097981646362163
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 96e06a62878d614fa13200eac79fbdc1
+    ParentPath: Switches/Default Work Unit
+    guid: 96e06a62878d614fa13200eac79fbdc1
+    GuidInternal: 
+    m_lastTime: -8585097981646357901
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 4a06951f73c7b248819937269b63a15a
+    ParentPath: Triggers/Default Work Unit
+    guid: 4a06951f73c7b248819937269b63a15a
+    GuidInternal: 
+    m_lastTime: -8585097981646354013
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 060000000700000008000000090000000a0000000c00000010000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9FFC901E-8D8F-4B4A-8F5C-9C20D623DE5C}" SchemaVersion="110">
+	<Busses>
+		<WorkUnit Name="Void Game" ID="{9FFC901E-8D8F-4B4A-8F5C-9C20D623DE5C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master" ID="{6C80CED1-D8C2-4ACB-A3F0-0CC72C9ABEE4}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{4647534E-9843-4419-B983-4AFA87503ECD}" WorkUnitID="{B366CD33-5CFA-4C14-AC44-C9A79C43751C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Start Screen Mixer" ID="{2A191A9B-7EC7-4512-938E-841959136876}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

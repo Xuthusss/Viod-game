@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db0131998a4d44067b773d562ff147e5, type: 3}
+  m_Name: BBDFD46E-D8B4-41D0-9ADF-7C312AE51761
+  m_EditorClassIdentifier: 
+  objectName: Void
+  id: 3370470011
+  guid: BBDFD46E-D8B4-41D0-9ADF-7C312AE51761

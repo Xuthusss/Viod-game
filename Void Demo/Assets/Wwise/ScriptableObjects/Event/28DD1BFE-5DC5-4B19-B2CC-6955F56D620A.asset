@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c3a2b1362bc14eac97c78facd8800b7, type: 3}
+  m_Name: 28DD1BFE-5DC5-4B19-B2CC-6955F56D620A
+  m_EditorClassIdentifier: 
+  objectName: Play_MSC_StartScreen
+  id: 3034528952
+  guid: 28DD1BFE-5DC5-4B19-B2CC-6955F56D620A
